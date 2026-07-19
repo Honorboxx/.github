@@ -1,0 +1,40 @@
+name: Delivery / support
+description: You bought a product and the repo invite didn't arrive, or you need help
+labels: [support]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sorry for the trouble — this gets handled fast. Delivery is a private-repo invite, usually within minutes, always within a few hours. You can also email **honorbox@proton.me**. Do not post your Stripe receipt, card details, or any secret here.
+  - type: input
+    id: product
+    attributes:
+      label: Which product
+      placeholder: HonorBox Pro / Crew
+    validations:
+      required: true
+  - type: input
+    id: github-username
+    attributes:
+      label: The GitHub username you entered at checkout
+      description: The invite goes to this account. A typo here is the most common cause.
+    validations:
+      required: true
+  - type: dropdown
+    id: issue
+    attributes:
+      label: What do you need
+      options:
+        - Invite never arrived
+        - I entered the wrong username
+        - Refund request
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Anything else
+      description: Approx. purchase time helps us find the order. No receipts or card info needed.
+    validations:
+      required: false
