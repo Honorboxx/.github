@@ -11,8 +11,8 @@
 
 ---
 
-An honor box is a roadside stand that sells while the owner sleeps. HonorBox is
-that, for the internet: a static storefront on GitHub Pages, checkout through
-your own Stripe account, and a scheduled GitHub Action that delivers private-repo
-access to each buyer. Zero platform fees. The
-[live store](https://honorboxx.github.io/honorbox/) runs on the engine itself.
+HonorBox turns a GitHub repo into a store for digital products: a static
+storefront on GitHub Pages, checkout through your own Stripe account, and a
+scheduled GitHub Action that delivers private-repo access to each buyer.
+0% platform fee. The [live store](https://honorboxx.github.io/honorbox/) is
+built with the engine, unmodified — what you'd ship is what you can already see.
